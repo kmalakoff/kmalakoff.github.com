@@ -7,7 +7,7 @@ class About extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <img src="img/02.png" className="img-responsive"/>
+              <img className="img-responsive about"/>
             </div>
             <div className="col-md-6">
               <div className="about-text">
