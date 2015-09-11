@@ -7,7 +7,9 @@ class About extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <img className="img-responsive about"/>
+              <div className="img wrapper">
+                <img className="img-responsive about"/>
+              </div>
             </div>
             <div className="col-md-6">
               <div className="about-text">
@@ -18,7 +20,7 @@ class About extends React.Component {
                 </div>
                 <p className="intro">Founders need an experienced network to help turn their ideas and dreams into a successful business.</p>
                 <br/>
-                <p className="intro">As part of your network, I will work with and support you in:</p>
+                <p className="intro">As part of your network, I will coach, support, and advise you in:</p>
                 <ul className="about-list">
                   <li>
                     <span className="fa fa-dot-circle-o"></span>

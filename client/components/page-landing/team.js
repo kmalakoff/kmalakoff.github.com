@@ -22,7 +22,7 @@ class Team extends React.Component {
                     <p>Startup Consultant</p>
                     <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
                     <br/>
-                    <a href="mailto:kevin@effortlessmotion.com">Email Me</a>
+                    <a href="mailto:kevin@effortlessmotion.com"><span>Email Me </span><span className="glyphicon glyphicon-send"></span></a>
                   </div>
                 </div>
               </div>
