@@ -16,7 +16,7 @@ class Team extends React.Component {
             <div className="owl-carousel owl-theme row">
               <div className="item">
                 <div className="thumbnail">
-                  <img alt="..." className="circle kevin"/>
+                  <img alt="..." className="img-circle team-img kevin"/>
                   <div className="caption">
                     <h3>Kevin Malakoff</h3>
                     <p>Startup Consultant</p>

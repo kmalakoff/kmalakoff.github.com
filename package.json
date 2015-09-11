@@ -24,6 +24,7 @@
   "dependencies": {
     "bootstrap": "^3.3.5",
     "dollardom": "git://github.com/julienw/dollardom",
+    "extract-text-webpack-plugin": "^0.8.2",
     "font-awesome": "^4.4.0",
     "jquery": "^2.1.4",
     "react": "^0.13.3",

@@ -2,7 +2,6 @@ import React from 'react';
 import {toggle} from 'react-state-utils';
 
 import $ from 'jquery';
-import 'bootstrap/js/scrollspy';
 
 import scrollTo from '../../lib/scroll-to';
 
