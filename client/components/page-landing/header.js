@@ -7,24 +7,24 @@ import 'bootstrap/js/scrollspy';
 import scrollTo from '../../lib/scroll-to';
 
 const LINKS = [
-  {href: '#tf-home', title: 'Home'},
-  {href: '#tf-about', title: 'About'},
-  {href: '#tf-team', title: 'Contact'},
-  // {href: '#tf-services', title: 'Services'},
-  // {href: '#tf-clients', title: 'Clients'},
-  // {href: '#tf-testimonials', title: 'Testimonials'},
-  // {href: '#tf-contact', title: 'Contact'}
+  {href: '#home', title: 'Home'},
+  {href: '#about', title: 'About'},
+  {href: '#team', title: 'Contact'},
+  // {href: '#services', title: 'Services'},
+  // {href: '#clients', title: 'Clients'},
+  // {href: '#testimonials', title: 'Testimonials'},
+  // {href: '#contact', title: 'Contact'}
 ];
 
 class Header extends React.Component {
   componentDidMount() {
-    $('body').scrollspy({target: '#tf-menu', offset: 80})
+    $('body').scrollspy({target: '.menu', offset: 80})
   }
   state = {open: false};
 
   render() {
     return (
-      <nav id="tf-menu" className="navbar navbar-default navbar-fixed-top on">
+      <nav className="menu navbar navbar-default navbar-fixed-top on">
         <div className="container">
 
           <div className="navbar-header">
@@ -34,7 +34,7 @@ class Header extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#tf-home" onClick={scrollTo}>Effortless Motion</a>
+            <a className="navbar-brand" href=".home" onClick={scrollTo}>Effortless Motion</a>
           </div>
 
           <div className={`navbar-collapse collapse ${this.state.open ? 'in' : ''}`}>

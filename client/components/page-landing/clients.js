@@ -3,7 +3,7 @@ import React from 'react';
 class Clients extends React.Component {
   render() {
     return (
-      <div id="tf-clients" className="text-center">
+      <div id="clients" className="clients text-center">
         <div className="overlay">
           <div className="container">
 
@@ -13,7 +13,7 @@ class Clients extends React.Component {
                 <hr/>
               </div>
             </div>
-            <div id="clients" className="owl-carousel owl-theme">
+            <div className="clients owl-carousel owl-theme">
               <div className="item">
                 <img src="img/client/01.png"/>
               </div>

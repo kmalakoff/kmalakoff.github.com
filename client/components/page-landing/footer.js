@@ -3,9 +3,9 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <nav id="footer">
+      <nav className="footer">
         <div className="container">
-          <div className="pagination-centered">
+          <div className="pull-right">
             <p>ALL RIGHTS RESERVED. COPYRIGHT © 2015. EFFORTLESS MOTION</p>
           </div>
         </div>

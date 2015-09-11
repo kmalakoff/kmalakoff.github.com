@@ -3,7 +3,7 @@ import React from 'react';
 class Services extends React.Component {
   render() {
     return (
-      <div id="tf-services" className="text-center">
+      <div id="services" className="services text-center">
         <div className="container">
           <div className="section-title center">
             <h2><strong>Services</strong></h2>

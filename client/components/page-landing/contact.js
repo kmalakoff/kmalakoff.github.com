@@ -3,7 +3,7 @@ import React from 'react';
 class Contact extends React.Component {
   render() {
     return (
-      <div id="tf-contact" className="text-center">
+      <div id="contact" className="contact text-center">
         <div className="container">
 
           <div className="row">
