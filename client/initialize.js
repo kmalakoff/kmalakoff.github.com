@@ -1,2 +1,2 @@
-import jQuery from 'jquery';
-window.jQuery = window.$ = jQuery;
+import $ from 'jquery';
+window.jQuery = $; // bootstrap

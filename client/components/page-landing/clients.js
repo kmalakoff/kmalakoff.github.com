@@ -17,24 +17,6 @@ class Clients extends React.Component {
               <div className="item">
                 <img src="img/client/01.png"/>
               </div>
-              <div className="item">
-                <img src="img/client/02.png"/>
-              </div>
-              <div className="item">
-                <img src="img/client/03.png"/>
-              </div>
-              <div className="item">
-                <img src="img/client/04.png"/>
-              </div>
-              <div className="item">
-                <img src="img/client/05.png"/>
-              </div>
-              <div className="item">
-                <img src="img/client/06.png"/>
-              </div>
-              <div className="item">
-                <img src="img/client/07.png"/>
-              </div>
             </div>
 
           </div>

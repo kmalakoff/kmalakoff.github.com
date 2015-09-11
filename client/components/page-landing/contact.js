@@ -22,19 +22,19 @@ class Contact extends React.Component {
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Enter email"/>
+                      <label htmlFor="exampleInputEmail1">Email address</label>
+                      <input type="email" className="form-control" placeholder="Enter email"/>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
+                      <label htmlFor="exampleInputPassword1">Password</label>
+                      <input type="password" className="form-control" placeholder="Password"/>
                     </div>
                   </div>
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputEmail1">Message</label>
+                  <label htmlFor="exampleInputEmail1">Message</label>
                   <textarea className="form-control" rows="3"></textarea>
                 </div>
 
