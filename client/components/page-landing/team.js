@@ -25,9 +25,9 @@ class Team extends React.Component {
                     <div className="footer fnav">
                       <ul className="footer-social">
                         <li><a href="mailto:kevin@effortlessmotion.com"><i className="fa fa-envelope"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/kevinmalakoff" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/kmalakoff" target="_blank"><i className="fa fa-github"></i></a></li>
-                        <li><a href="https://twitter.com/kmalakoff" target="_blank"><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kevinmalakoff"><i className="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/kmalakoff"><i className="fa fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/kmalakoff"><i className="fa fa-twitter"></i></a></li>
                       </ul>
                     </div>
                   </div>
