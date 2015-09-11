@@ -11,6 +11,7 @@ class Footer extends React.Component {
           <div className="pull-right fnav">
             <ul className="footer-social">
               <li><a href="https://www.linkedin.com/in/kevinmalakoff"><i className="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/kmalakoff"><i className="fa fa-github"></i></a></li>
               <li><a href="https://twitter.com/kmalakoff"><i className="fa fa-twitter"></i></a></li>
             </ul>
           </div>

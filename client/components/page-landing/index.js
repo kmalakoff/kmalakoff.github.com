@@ -2,11 +2,11 @@ import React from 'react';
 
 import About from './about';
 // import Clients from './clients';
-import Contact from './contact';
+// import Contact from './contact';
 import Footer from './footer';
 import Header from './header';
 import Home from './home';
-import Services from './services';
+// import Services from './services';
 // import Testimonials from './testimonials';
 import Team from './team';
 
@@ -18,8 +18,6 @@ class PageLanding extends React.Component {
         <Home/>
         <About/>
         <Team/>
-        <Services/>
-        <Contact/>
         <Footer/>
       </div>
     );

@@ -207,7 +207,11 @@ ul.about-list li span{
 }
 
 #tf-team .thumbnail .team-img.kevin {
-  background: url(../img/team/kevin.jpg);
+  background: url(../img/team/kevin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 240px;
 }
 
 .section-title.center{

@@ -7,9 +7,9 @@ class Team extends React.Component {
         <div className="overlay">
           <div className="container">
             <div className="section-title center">
-              <h2>Meet <strong>our team</strong></h2>
+              <h2><strong>Contact Me</strong></h2>
               <div className="line">
-                <hr/>
+              <hr/>
               </div>
             </div>
 
@@ -20,7 +20,9 @@ class Team extends React.Component {
                   <div className="caption">
                     <h3>Kevin Malakoff</h3>
                     <p>Startup Consultant</p>
-                    <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                    <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
+                    <br/>
+                    <a href="mailto:kevin@effortlessmotion.com">Email Me</a>
                   </div>
                 </div>
               </div>

@@ -8,8 +8,8 @@ class Home extends React.Component {
       <div id="tf-home" className="text-center">
         <div className="overlay">
           <div className="content">
-            <h1>Welcome to <strong><span className="color">Effortless Motion</span></strong></h1>
-            <p className="lead">We are a startup consultancy with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
+            <h1>You can reach a state of <strong><span className="color">Effortless Motion</span></strong></h1>
+            <p className="lead">I am a <strong>startup consultant</strong> who can help you <strong>achieve your business goals</strong></p>
             <a href="#tf-about" className="fa fa-angle-down page-scroll" onClick={scrollTo}></a>
           </div>
         </div>

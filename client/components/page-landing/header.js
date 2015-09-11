@@ -9,11 +9,11 @@ import scrollTo from '../../lib/scroll-to';
 const LINKS = [
   {href: '#tf-home', title: 'Home'},
   {href: '#tf-about', title: 'About'},
-  {href: '#tf-team', title: 'Team'},
-  {href: '#tf-services', title: 'Services'},
+  {href: '#tf-team', title: 'Contact'},
+  // {href: '#tf-services', title: 'Services'},
   // {href: '#tf-clients', title: 'Clients'},
   // {href: '#tf-testimonials', title: 'Testimonials'},
-  {href: '#tf-contact', title: 'Contact'}
+  // {href: '#tf-contact', title: 'Contact'}
 ];
 
 class Header extends React.Component {

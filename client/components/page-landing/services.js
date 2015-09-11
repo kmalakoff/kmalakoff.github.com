@@ -6,7 +6,7 @@ class Services extends React.Component {
       <div id="tf-services" className="text-center">
         <div className="container">
           <div className="section-title center">
-            <h2>Take a look at <strong>our services</strong></h2>
+            <h2><strong>Services</strong></h2>
             <div className="line">
               <hr/>
             </div>
