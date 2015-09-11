@@ -8,7 +8,7 @@ class About extends React.Component {
           <div className="row">
             <div className="col-md-6">
               <div className="img wrapper">
-                <img className="img-responsive about"/>
+                <img className="img-responsive"/>
               </div>
             </div>
             <div className="col-md-6">
