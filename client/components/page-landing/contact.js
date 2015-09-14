@@ -12,7 +12,7 @@ class Contact extends React.Component {
               <div className="section-title center">
                 <h2><strong>Contact Me</strong></h2>
                 <div className="line">
-                  <hr/>
+                <hr/>
                 </div>
                 <div className="clearfix"></div>
               </div>

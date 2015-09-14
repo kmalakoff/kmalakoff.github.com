@@ -1,8 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
 body, html{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #5a5a5a;
@@ -32,13 +30,13 @@ h5{
   line-height: 20px;
 }
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Tahoma', sans-serif;
 }
 p.intro{
   font-size: 16px;
   margin: 12px 0 0;
   line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Tahoma', sans-serif;
 }
 a{ color: #66C2FF;}
 a:hover,
@@ -55,13 +53,13 @@ a:focus{
   clear: both;
 }
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 .clearfix { display: inline-block; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
@@ -183,7 +181,7 @@ ul.about-list li{
   display: block;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Tahoma', sans-serif;
 }
 ul.about-list li span{
   margin-right: 10px;
@@ -228,7 +226,7 @@ ul.about-list li span{
 }
 
 .section-title.center hr {
-  border-top: 4px solid rgba(51, 153, 255, 0.34);
+  border-top: 4px solid #66C2FF;
   width: 40px;
   text-align: center;
   margin-top: 10px;
@@ -510,7 +508,7 @@ label {
   float: left;
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Tahoma', sans-serif;
 }
 .contact .form-control {
   display: block;

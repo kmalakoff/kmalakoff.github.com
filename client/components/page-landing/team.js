@@ -8,9 +8,7 @@ class Team extends React.Component {
           <div className="container">
             <div className="section-title center">
               <h2><strong>Contact Me</strong></h2>
-              <div className="line">
-              <hr/>
-              </div>
+              <div className="line"/>
             </div>
 
             <div className="owl-carousel owl-theme row">
