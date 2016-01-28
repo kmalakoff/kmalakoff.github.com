@@ -33,7 +33,7 @@ class Header extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href=".home" onClick={scrollTo}>Effortless Motion</a>
+            <a className="navbar-brand" href="#home" onClick={scrollTo}>Effortless Motion</a>
           </div>
 
           <div className={`navbar-collapse collapse ${this.state.open ? 'in' : ''}`}>

@@ -2,6 +2,7 @@ import $ from 'jquery';
 
 export default (e) => {
   let el = e.target;
+
   if (location.pathname.replace(/^\//,'') == el.pathname.replace(/^\//,'') && location.hostname == el.hostname) {
     var target = $(el.hash);
 
