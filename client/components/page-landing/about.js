@@ -8,7 +8,7 @@ class About extends React.Component {
           <div className="row">
             <div className="col-md-6">
               <div className="img wrapper">
-                <img className="" style={{width: '400px'}} src="https://static.pexels.com/photos/26822/pexels-photo.jpg"/>
+                <img className="" style={{height: '300px', width: '100%'}} src="https://static.pexels.com/photos/26822/pexels-photo.jpg"/>
               </div>
             </div>
             <div className="col-md-6">

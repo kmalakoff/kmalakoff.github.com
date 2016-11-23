@@ -6,7 +6,7 @@ class Footer extends React.Component {
       <nav className="footer">
         <div className="container">
           <div className="pull-right">
-            <p>ALL RIGHTS RESERVED. COPYRIGHT © 2015. EFFORTLESS MOTION</p>
+            <p>ALL RIGHTS RESERVED. COPYRIGHT © 2015-2016. EFFORTLESS MOTION</p>
           </div>
         </div>
       </nav>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imageKevin from '../../img/team/kevin.jpg';
+import imageKevin from '../../img/kevin.jpg';
 
 class Team extends React.Component {
   render() {
