@@ -1,5 +1,7 @@
 import React from 'react';
 
+import imageKevin from '../../img/team/kevin.jpg';
+
 class Team extends React.Component {
   render() {
     return (
@@ -14,7 +16,7 @@ class Team extends React.Component {
             <div className="owl-carousel owl-theme row">
               <div className="item">
                 <div className="thumbnail">
-                  <img alt="..." className="img-circle team-img kevin"/>
+                  <img alt="Kevin Malakoff" className="img-circle" style={{width: '300px'}} src={imageKevin}/>
                   <div className="caption">
                     <h3>Kevin Malakoff</h3>
                     <p>Startup Consultant</p>

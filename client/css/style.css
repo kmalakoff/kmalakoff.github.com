@@ -115,7 +115,7 @@ font-weight: 900;
   }
 /* Home Style */
 .home{
-  background: url(../img/home.jpg);
+  background: url(https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -169,7 +169,7 @@ a.fa.fa-angle-down:hover{
   padding: 15px;
 }
 .about .img-responsive{
-  background: url(../img/about.jpg);
+  background: url(https://static.pexels.com/photos/26822/pexels-photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
@@ -189,7 +189,7 @@ ul.about-list li span{
 
 /* Team Section */
 .team{
-  background: url(../img/team.jpg);
+  background: url(https://static.pexels.com/photos/9056/pexels-photo.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
