@@ -1,5 +1,4 @@
 import React from 'react';
-import {toggle} from 'react-state-utils';
 
 import $ from 'jquery';
 
@@ -27,7 +26,7 @@ class Header extends React.Component {
         <div className="container">
 
           <div className="navbar-header">
-            <button type="button" className="navbar-toggle collapsed" onClick={e=>toggle(this, 'open')}>
+            <button type="button" className="navbar-toggle collapsed" onClick={e=>this.setState({open: !this.state.open})}>
               <span className="sr-only">Toggle navigation</span>
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>

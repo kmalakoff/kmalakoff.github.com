@@ -10,6 +10,8 @@ import Home from './home';
 // import Testimonials from './testimonials';
 import Team from './team';
 
+// import {Link, Element, Events, animateScroll, scrollSpy} from 'react-scroll';
+
 class PageLanding extends React.Component {
   render() {
     return (

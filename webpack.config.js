@@ -15,9 +15,14 @@ module.exports = {
     extensions: ['', '.js'],
     modulesDirectories: ['web_modules', 'node_modules']
   },
+  externals: {
+    "jquery": "jQuery",
+    "react": "React",
+    "react-dom": "ReactDOM"
+  },
   module: {
     loaders: [
-      {test: /\.js?$/, exclude: /(node_modules)/, loader: 'babel?optional[]=runtime&stage=0'},
+      {test: /\.js?$/, exclude: /(node_modules)/, loader: 'babel'},
       {test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader')},
       {test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&minetype=application/font-woff"},
       {test: /\.(ttf|eot|svg|jpg|png)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader"}
