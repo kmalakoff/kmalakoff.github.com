@@ -1,5 +1,5 @@
 .ui.masthead.segment {
-  background: url(../img/home.jpg);
+  background: url(https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,7 +37,7 @@
 }
 
 .ui.team.segment {
-  background: url(../img/team.jpg);
+  background: url(https://static.pexels.com/photos/9056/pexels-photo.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
