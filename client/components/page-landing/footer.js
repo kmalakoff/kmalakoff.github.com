@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <div className="ui inverted vertical footer segment">
         <div className="ui text container">
-          ALL RIGHTS RESERVED. COPYRIGHT © 2015-2016. EFFORTLESS MOTION
+          All rights reserved. Copyright © 2015-2016. Effortless Motion
         </div>
       </div>
     );

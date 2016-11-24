@@ -25,9 +25,10 @@ class Home extends React.Component {
 
         <div className="ui text container">
           <h1 className="ui inverted header">Effortless Motion</h1>
-          <h2>YOU CAN REACH A STATE OF EFFORTLESS MOTION</h2>
+          <h2>You can reach a state of effortless motion</h2>
           <h3>I am a startup consultant who can help you achieve your business goals</h3>
         </div>
+        <div className="fill darken"/>
       </div>
     );
   }
