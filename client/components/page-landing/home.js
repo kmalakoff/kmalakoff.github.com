@@ -1,14 +1,6 @@
 import React from 'react';
 
-import scrollTo from '../../lib/scroll-to';
-
-const LINKS = [
-  {href: '#home', title: 'Home'},
-  {href: '#about', title: 'About'},
-  {href: '#team', title: 'Contact'},
-];
-
-class Home extends React.Component {
+export default class Home extends React.Component {
   render() {
     return (
       <div id="home" className="ui vertical center aligned parallax segment masthead">
@@ -23,5 +15,3 @@ class Home extends React.Component {
     );
   }
 }
-
-export default Home;

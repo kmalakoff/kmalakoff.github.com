@@ -1,8 +1,8 @@
 import React from 'react';
 
 import $ from 'jquery';
-
 import scrollTo from '../../lib/scroll-to';
+// import {Scrollspy} from 'react-scrollspy';
 
 const LINKS = [
   {href: '#home', title: 'Home'},
@@ -10,7 +10,7 @@ const LINKS = [
   {href: '#team', title: 'Contact'},
 ];
 
-class Header extends React.Component {
+export default class Header extends React.Component {
   componentDidMount() {
     $('body').scrollspy({target: '.menu', offset: 80})
   }
@@ -30,4 +30,12 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+
+          // <Scrollspy className="right menu" items={ ['home', 'about', 'team'] } currentClassName="active" componentTag="div">
+          //   {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
+          // </Scrollspy>
+
+
+          // <div className="right menu">
+          //   {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
+          // </div>

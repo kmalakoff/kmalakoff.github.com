@@ -1,6 +1,6 @@
 import React from 'react';
 
-class About extends React.Component {
+export default class About extends React.Component {
   render() {
     return (
       <div id="about" className="ui vertical segment about">
@@ -8,7 +8,7 @@ class About extends React.Component {
           <div className="ui middle aligned stackable grid container">
             <div className="row">
               <div className="eight wide column">
-                <h3 className="ui header">What we do</h3>
+                <h2 className="ui header">What we do</h2>
                 <p>Founders need an experienced network to help turn their ideas and dreams into a successful business.</p>
                 <p>As part of your network, I will coach, support, and advise you in:</p>
                 <div className="ui bulleted list">
@@ -27,5 +27,3 @@ class About extends React.Component {
     );
   }
 }
-
-export default About;

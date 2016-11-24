@@ -2,13 +2,13 @@ import React from 'react';
 
 import imageKevin from '../../img/kevin.jpg';
 
-class Team extends React.Component {
+export default class Team extends React.Component {
   render() {
     return (
       <div id="team" className="ui vertical center aligned parallax segment team">
         <div className="fill darken">
           <div className="ui text container">
-            <h3 className="ui inverted header">Contact us</h3>
+            <h2 className="ui inverted header">Contact us</h2>
             <img src={imageKevin} className="ui medium avatar image"/>
             <h4>Kevin Malakoff</h4>
             <p>Startup Consultant</p>
@@ -23,5 +23,3 @@ class Team extends React.Component {
     );
   }
 }
-
-export default Team;
