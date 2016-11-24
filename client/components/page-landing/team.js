@@ -5,17 +5,19 @@ import imageKevin from '../../img/kevin.jpg';
 class Team extends React.Component {
   render() {
     return (
-      <div id="team" className="ui vertical stripe center aligned segment team">
-        <div className="ui text container darken">
-          <h3 className="ui header">Contact us</h3>
-          <img src={imageKevin} className="ui medium avatar image"/>
-          <h4>Kevin Malakoff</h4>
-          <p>Startup Consultant</p>
-          <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
-          <i className="circular mail icon"></i>
-          <i className="circular linkedin icon"></i>
-          <i className="circular github icon"></i>
-          <i className="circular twitter icon"></i>
+      <div id="team" className="ui vertical center aligned segment team">
+        <div className="fill darken">
+          <div className="ui text container">
+            <h3 className="ui inverted header">Contact us</h3>
+            <img src={imageKevin} className="ui medium avatar image"/>
+            <h4>Kevin Malakoff</h4>
+            <p>Startup Consultant</p>
+            <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
+            <a><i className="circular inverted mail icon"></i></a>
+            <a><i className="circular inverted linkedin icon"></i></a>
+            <a><i className="circular inverted github icon"></i></a>
+            <a><i className="circular inverted twitter icon"></i></a>
+          </div>
         </div>
       </div>
     );

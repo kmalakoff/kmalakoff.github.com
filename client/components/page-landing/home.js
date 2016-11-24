@@ -12,23 +12,13 @@ class Home extends React.Component {
   render() {
     return (
       <div id="home" className="ui vertical center aligned segment masthead">
-        <div className="ui container">
-          <div className="ui large secondary pointing menu">
-            <a className="toc item">
-              <i className="sidebar icon"></i>
-            </a>
-            <div className="right item">
-              {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
-            </div>
+        <div className="fill darken">
+          <div className="ui text container">
+            <h1 className="ui inverted header">Effortless Motion</h1>
+            <h2>You can reach a state of effortless motion</h2>
+            <h3>I am a startup consultant who can help you achieve your business goals</h3>
           </div>
         </div>
-
-        <div className="ui text container">
-          <h1 className="ui inverted header">Effortless Motion</h1>
-          <h2>You can reach a state of effortless motion</h2>
-          <h3>I am a startup consultant who can help you achieve your business goals</h3>
-        </div>
-        <div className="fill darken"/>
       </div>
     );
   }

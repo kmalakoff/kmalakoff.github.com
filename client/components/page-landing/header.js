@@ -18,9 +18,9 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="ui large top fixed menu">
+      <div className="ui large top fixed borderless menu">
         <div className="ui container">
-          <div className="item">Effortless Motion</div>
+          <div className="header item">Effortless Motion</div>
           <div className="right menu">
             {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
           </div>
