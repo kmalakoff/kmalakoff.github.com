@@ -1,7 +1,5 @@
 import React from 'react';
 
-import imageAbout from '../../img/about.jpg';
-
 class About extends React.Component {
   render() {
     return (
@@ -20,7 +18,7 @@ class About extends React.Component {
                 </div>
               </div>
               <div className="six wide right floated column">
-                <img src={imageAbout} className="ui large bordered rounded image"/>
+                <img src="https://static.pexels.com/photos/26822/pexels-photo.jpg" className="ui large bordered rounded image"/>
               </div>
             </div>
           </div>
