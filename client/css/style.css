@@ -12,7 +12,7 @@
 }
 
 .ui.masthead.segment {
-  background: url(https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
+  background: url(../img/masthead.jpg);
   color: #cfcfcf;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .ui.team.segment {
-  background: url(https://static.pexels.com/photos/9056/pexels-photo.jpg);
+  background: url(../img/team.jpg);
   color: #cfcfcf;
 }
 

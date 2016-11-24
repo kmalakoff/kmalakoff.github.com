@@ -1,6 +1,8 @@
 import React from 'react';
 // import {Element} from 'react-scroll'; 
 
+import imageAbout from '../../img/about.jpg';
+
 export default class About extends React.Component {
   render() {
     return (
@@ -19,7 +21,7 @@ export default class About extends React.Component {
                 </div>
               </div>
               <div className="six wide right floated column">
-                <img src="https://static.pexels.com/photos/26822/pexels-photo.jpg" className="ui large bordered rounded image"/>
+                <img src={imageAbout} className="ui large bordered rounded image"/>
               </div>
             </div>
           </div>
