@@ -1,19 +1,13 @@
 import React from 'react';
-
-import $ from 'jquery';
-import scrollTo from '../../lib/scroll-to';
-// import {Scrollspy} from 'react-scrollspy';
+import {Link} from 'react-scroll'; 
 
 const LINKS = [
-  {href: '#home', title: 'Home'},
-  {href: '#about', title: 'About'},
-  {href: '#team', title: 'Contact'},
+  {name: 'home', title: 'Home'},
+  {name: 'about', title: 'About'},
+  {name: 'team', title: 'Contact'},
 ];
 
 export default class Header extends React.Component {
-  componentDidMount() {
-    $('body').scrollspy({target: '.menu', offset: 80})
-  }
   state = {open: false};
 
   render() {
@@ -22,20 +16,10 @@ export default class Header extends React.Component {
         <div className="ui container">
           <div className="header item">Effortless Motion</div>
           <div className="right menu">
-            {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
+            {LINKS.map(x => <Link key={x.name} className="item" to={x.name} spy={true} smooth={true} duration={500}>{x.title}</Link>)}
           </div>
         </div>
       </div>
     );
   }
 }
-
-
-          // <Scrollspy className="right menu" items={ ['home', 'about', 'team'] } currentClassName="active" componentTag="div">
-          //   {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
-          // </Scrollspy>
-
-
-          // <div className="right menu">
-          //   {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
-          // </div>

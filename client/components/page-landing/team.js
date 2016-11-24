@@ -1,11 +1,12 @@
 import React from 'react';
+// import {Element} from 'react-scroll'; 
 
 import imageKevin from '../../img/kevin.jpg';
 
 export default class Team extends React.Component {
   render() {
     return (
-      <div id="team" className="ui vertical center aligned parallax segment team">
+      <div name="team" className="ui vertical center aligned parallax segment team">
         <div className="fill darken">
           <div className="ui text container">
             <h2 className="ui inverted header">Contact us</h2>

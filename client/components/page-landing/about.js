@@ -1,9 +1,10 @@
 import React from 'react';
+// import {Element} from 'react-scroll'; 
 
 export default class About extends React.Component {
   render() {
     return (
-      <div id="about" className="ui vertical segment about">
+      <div name="about" className="ui vertical segment about">
         <div className="fill">
           <div className="ui middle aligned stackable grid container">
             <div className="row">

@@ -16,7 +16,6 @@ module.exports = {
     modulesDirectories: ['web_modules', 'node_modules']
   },
   externals: {
-    "jquery": "jQuery",
     "react": "React",
     "react-dom": "ReactDOM"
   },

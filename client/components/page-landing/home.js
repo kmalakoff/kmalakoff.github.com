@@ -1,9 +1,10 @@
 import React from 'react';
+// import {Element} from 'react-scroll'; 
 
 export default class Home extends React.Component {
   render() {
     return (
-      <div id="home" className="ui vertical center aligned parallax segment masthead">
+      <div name="home" className="ui vertical center aligned parallax segment masthead">
         <div className="fill darken">
           <div className="ui text container">
             <h1 className="ui inverted header">Effortless Motion</h1>
