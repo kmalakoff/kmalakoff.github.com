@@ -8,10 +8,6 @@ const LINKS = [
   {href: '#home', title: 'Home'},
   {href: '#about', title: 'About'},
   {href: '#team', title: 'Contact'},
-  // {href: '#services', title: 'Services'},
-  // {href: '#clients', title: 'Clients'},
-  // {href: '#testimonials', title: 'Testimonials'},
-  // {href: '#contact', title: 'Contact'}
 ];
 
 class Header extends React.Component {
@@ -22,26 +18,14 @@ class Header extends React.Component {
 
   render() {
     return (
-      <nav className="menu navbar navbar-default navbar-fixed-top on">
-        <div className="container">
-
-          <div className="navbar-header">
-            <button type="button" className="navbar-toggle collapsed" onClick={e=>this.setState({open: !this.state.open})}>
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
-            <a className="navbar-brand" href="#home" onClick={scrollTo}>Effortless Motion</a>
-          </div>
-
-          <div className={`navbar-collapse collapse ${this.state.open ? 'in' : ''}`}>
-            <ul className="nav navbar-nav navbar-right">
-              {LINKS.map(x => <li key={x.href}><a href={x.href} onClick={scrollTo}>{x.title}</a></li>)}
-            </ul>
+      <div className="ui large top fixed menu">
+        <div className="ui container">
+          <div className="item">Effortless Motion</div>
+          <div className="right menu">
+            {LINKS.map(x => <a key={x.href} className="item" href={x.href} onClick={scrollTo}>{x.title}</a>)}
           </div>
         </div>
-      </nav>
+      </div>
     );
   }
 }

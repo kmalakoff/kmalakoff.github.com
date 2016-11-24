@@ -5,36 +5,17 @@ import imageKevin from '../../img/kevin.jpg';
 class Team extends React.Component {
   render() {
     return (
-      <div id="team" className="team text-center">
-        <div className="overlay">
-          <div className="container">
-            <div className="section-title center">
-              <h2><strong>Contact Me</strong></h2>
-              <div className="line"/>
-            </div>
-
-            <div className="owl-carousel owl-theme row">
-              <div className="item">
-                <div className="thumbnail">
-                  <img alt="Kevin Malakoff" className="img-circle" style={{width: '300px'}} src={imageKevin}/>
-                  <div className="caption">
-                    <h3>Kevin Malakoff</h3>
-                    <p>Startup Consultant</p>
-                    <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
-                    <br/>
-                    <div className="footer fnav">
-                      <ul className="footer-social">
-                        <li><a href="mailto:kevin@effortlessmotion.com"><i className="fa fa-envelope"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/kevinmalakoff"><i className="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/kmalakoff"><i className="fa fa-github"></i></a></li>
-                        <li><a href="https://twitter.com/kmalakoff"><i className="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div id="team" className="ui vertical stripe center aligned segment team">
+        <div className="ui text container">
+          <h3 className="ui header">Contact us</h3>
+          <img src="./kevin.jpg" className="ui medium avatar image"/>
+          <h4>Kevin Malakoff</h4>
+          <p>Startup Consultant</p>
+          <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
+          <i className="circular mail icon"></i>
+          <i className="circular linkedin icon"></i>
+          <i className="circular github icon"></i>
+          <i className="circular twitter icon"></i>
         </div>
       </div>
     );
