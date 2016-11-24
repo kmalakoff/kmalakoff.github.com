@@ -1,14 +1,19 @@
-.ui.masthead.segment {
-  background: url(https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: #cfcfcf;
-
+.ui.vertical.segment {
   padding: 0;
   margin: 0;
   border: none;
+}
+
+.ui.parallax.segment {
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+.ui.masthead.segment {
+  background: url(https://static.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg);
+  color: #cfcfcf;
 }
 
 .ui.masthead.segment h1.ui.header {
@@ -38,15 +43,7 @@
 
 .ui.team.segment {
   background: url(https://static.pexels.com/photos/9056/pexels-photo.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   color: #cfcfcf;
-
-  padding: 0;
-  margin: 0;
-  border: none;
 }
 
 .ui.team.segment .fill {

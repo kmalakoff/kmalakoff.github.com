@@ -3,9 +3,9 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <div className="ui inverted vertical footer segment">
+      <div className="ui inverted vertical center aligned footer segment">
         <div className="ui text container">
-          All rights reserved. Copyright © 2015-2016. Effortless Motion
+          <span>All rights reserved. Copyright <i className="copyright icon"/>2015-2016 Effortless Motion</span>
         </div>
       </div>
     );
