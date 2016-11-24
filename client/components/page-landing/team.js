@@ -13,10 +13,10 @@ class Team extends React.Component {
             <h4>Kevin Malakoff</h4>
             <p>Startup Consultant</p>
             <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
-            <a><i className="circular inverted mail icon"></i></a>
-            <a><i className="circular inverted linkedin icon"></i></a>
-            <a><i className="circular inverted github icon"></i></a>
-            <a><i className="circular inverted twitter icon"></i></a>
+            <a href="mailto:kevin@effortlessmotion.com"><i className="circular inverted mail icon"></i></a>
+            <a href="https://www.linkedin.com/in/kevinmalakoff" target="_blank"><i className="circular inverted linkedin icon"></i></a>
+            <a href="https://github.com/kmalakoff" target="_blank"><i className="circular inverted github icon"></i></a>
+            <a href="https://twitter.com/kmalakoff" target="_blank"><i className="circular inverted twitter icon"></i></a>
           </div>
         </div>
       </div>
