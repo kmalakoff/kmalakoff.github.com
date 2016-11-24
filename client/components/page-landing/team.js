@@ -10,7 +10,7 @@ export default class Team extends React.Component {
         <div className="fill darken">
           <div className="ui text container">
             <h2 className="ui inverted header">Contact us</h2>
-            <img src={imageKevin} className="ui medium avatar image"/>
+            <img alt="Kevin Malakoff" src={imageKevin} className="ui medium avatar image"/>
             <h4>Kevin Malakoff</h4>
             <p>Startup Consultant</p>
             <p>Laser-focussed, turbo-charged entrepreneur and coach.</p>
