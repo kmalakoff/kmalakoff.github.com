@@ -36,6 +36,7 @@
     "react-simple-parallax": "^0.2.6",
     "react-track": "^0.4.3",
     "react-waypoint": "^4.1.0",
-    "semantic-ui-css": "^2.2.4"
+    "semantic-ui-css": "^2.2.4",
+    "semantic-ui-react": "^0.61.4"
   }
 }
